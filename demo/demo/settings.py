@@ -25,7 +25,7 @@ SECRET_KEY = 'k47gc5()p4+zm__-z=@mpb%3e+)nupf6#t6!u6ie94)*^z49_$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '*' ]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'firstdb',
-        'USER': 'user_1',
-        'PASSWORD': 'password',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'demodb',
+        'USER': 'postgres',
+        'PASSWORD': 'psql',
         'HOST': 'localhost',
         'port': '5432',
     }
@@ -123,3 +123,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Default primary key field type
+# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
