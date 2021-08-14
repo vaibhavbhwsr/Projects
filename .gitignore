@@ -1,0 +1,22 @@
+local_settings.py
+local.py
+*/media/
+**/migrations/
+*/staticfiles/
+**/images/
+*.pyc
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+.idea/
+celerybeat-schedule
+postyourcars.sublime-workspace
+celerybeat.pid
+client_secrets.json
+settings.ini
+db.sqlite3
+*.ini
