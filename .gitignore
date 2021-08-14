@@ -9,14 +9,4 @@ local.py
 # Environments
 .env
 .venv
-env/
-venv/
-ENV/
-.idea/
-celerybeat-schedule
-postyourcars.sublime-workspace
-celerybeat.pid
-client_secrets.json
-settings.ini
-db.sqlite3
-*.ini
+
