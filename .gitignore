@@ -9,4 +9,4 @@ local.py
 # Environments
 .env
 .venv
-
+.idea
